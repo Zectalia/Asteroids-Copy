@@ -1,2 +1,2 @@
 # Asteroids
-A copy of 2048
+A copy of Asteroids
