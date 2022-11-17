@@ -6,6 +6,7 @@ using static GameManager;
 
 public class Block : MonoBehaviour
 {
+    public Vector2 Pos => transform.position;
     public int Value;
     [SerializeField] private SpriteRenderer _renderer;
     [SerializeField] private TextMeshPro _text;
