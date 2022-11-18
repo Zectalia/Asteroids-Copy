@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public int score { get; private set; }
     public Text scoreText;
 
-    public int lives { get; private set; }
+    public int lives;
     public Text livesText;
 
     private void Start()
@@ -37,7 +37,6 @@ public class GameManager : MonoBehaviour
         gameOverUI.SetActive(false);
 
         SetScore(0);
-        SetLives(3);
         Respawn();
     }
 
